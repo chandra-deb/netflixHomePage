@@ -1,0 +1,394 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    opacity: .8;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.logo {
+    background-color: red;
+    display: inline-block;
+    padding: 18px;
+    margin: 0 20px;
+}
+
+.left-menu {
+    display: inline-block;
+}
+
+.left-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-menu ul li {
+    display: inline-block;
+    padding: 18px;
+    margin: 0 20px;
+}
+
+.left-menu ul li a {
+    color: white;
+}
+
+.left-menu ul li a.dropdown {
+    color: red;
+}
+.right-menu {
+    float: right;
+    display: inline-block;
+}
+
+
+.right-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-menu ul li {
+    display: inline-block;
+    padding: 18px;
+    margin: 0 20px;
+}
+
+.right-menu ul li a {
+    color: white;
+}
+
+.left-menu a:hover, .right-menu a:hover {
+    color: red;
+    transition: 300ms;
+}
+
+#heading {
+    /* background: -webkit-linear-gradient(45deg, transparent, rgba(114, 14, 7, 0.7) 0%,#000000 100%), url("img/batman.jpg");  */
+    background: linear-gradient(45deg, transparent, rgb(116, 1, 1)),
+            url("img/batman.jpg") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.description-box {
+    color: white;
+    width: 70%;
+    font-weight: 300;
+    font-family: sans-serif;
+    margin-left: 3rem;
+}
+
+.description-box h4 {
+    font-size: 30px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.description-box h1 {
+    font-size: 65px;
+    font-weight: 700;
+    font-family: serif;
+    margin: 0;
+}
+
+.description-box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.description-box p {
+    width: 60%;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    line-height: 1.3;
+    
+}
+
+.btn1, .btn2 {
+    display: inline-block;  
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.btn1 a:hover {
+   background-color: red;
+   transition: 500ms;
+
+}
+
+.btn2 a {
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, .8);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+.btn2 a:hover {
+    background-color: black;
+    transition: 500ms;
+}
+
+#video-section {
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.row {
+    font-size: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.video-box {
+    display: inline-block;
+    background: red;
+    width: 18%;
+    margin: 1%;
+    height: 200px;
+
+}
+
+.video-box h4 {
+    background-color: rgba(0, 0, 0, .7);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    padding: 0;
+    padding-left: 2px;
+}
+
+
+.v1 {
+    background: url("https://i0.wp.com/honknews.com/wp-content/uploads/2020/04/Spider-Man-3-delayed.jpg?fit=1280%2C720&ssl=1") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v2 {
+    background: url("https://venturebeat.com/wp-content/uploads/2020/03/harry-potter.jpg?fit=578%2C340&strip=all") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v3 {
+    background: url("https://jackandthegeekstalk.files.wordpress.com/2018/03/thortdw.jpg?w=1080") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v4 {
+    background: url("https://images.moviesanywhere.com/c8eb1904486b7877818da129d7b778c4/383f9657-2a10-4b94-84e7-1a83e1c48885.jpg?h=375&resize=fit&w=250") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v5 {
+    background: url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F4030FF9832F1C84777E4B6C5EAEAAD1A42563E593123468678DB179145222C5/scale?width=1200&aspectRatio=1.78&format=jpeg") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v6 {
+    background: url("https://images.moviesanywhere.com/c8eb1904486b7877818da129d7b778c4/383f9657-2a10-4b94-84e7-1a83e1c48885.jpg?h=375&resize=fit&w=250") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v7 {
+    background: url("https://gadgetfreeks.com/wp-content/uploads/2020/04/Money-Heist-Season-4.jpg") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v8 {
+        background: url("https://i0.wp.com/honknews.com/wp-content/uploads/2020/04/Spider-Man-3-delayed.jpg?fit=1280%2C720&ssl=1") center;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v9 {
+    background: url("https://venturebeat.com/wp-content/uploads/2020/03/harry-potter.jpg?fit=578%2C340&strip=all") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.v10 {
+    background: url("https://jackandthegeekstalk.files.wordpress.com/2018/03/thortdw.jpg?w=1080") center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* mobile devices */
+
+
+@media screen and (max-width: 600px) {
+    .logo{
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    .left-menu {
+        float: right;
+        margin-right: 20px;
+    }
+
+    .left-menu ul li{
+        padding: 0px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .right-menu {
+        background-color: rgba(0, 0, 0, .2);
+        display: block;
+        text-align: center;
+        float: none;
+    }
+
+    .right-menu ul li {
+        display: block;
+    }
+
+    .dd {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dd-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index: 1;
+      }
+
+      .dd:hover .dd-content {
+        display: block;
+      }
+
+    .description-box {
+        margin-left: 15px;
+    }
+
+    .description-box h1{
+        font-size: 2rem;
+    }
+
+    .description-box h4 {
+        font-size: 1rem;
+    }
+
+    .description-box h3 {
+        font-size: 1rem;
+    }
+
+    .description-box p {
+        font-size: 1rem;
+        line-height: 1.3;
+    }
+    .btn1 a {
+        color: white;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, .7);
+        /* padding: 10px 20px; */
+        border: 2px solid red;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+
+    .description-box .btn1 , .description-box .btn2 {
+        font-size: 12px;
+    }
+
+    .video-box {
+        display: inline-block;
+        /* background: red; */
+        font-size: 16px;
+        width: 95%;
+        margin: 2.5%;
+        height: 200px;
+    }
+
+
+    .video-box p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        text-align: left;
+        vertical-align: top;
+    }
+}
+
+.fas {
+    padding-right: 10px;
+}
+
+/* @media screen and (max-width: 800px) {
+    .video-box {
+        display: inline-block;
+        font-size: 16px;
+        width: 30%;
+        height: 200px;
+    }
+} */
